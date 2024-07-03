@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap'); /*google fonts*/
+/*header*/
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+header {
+    background: #285943;
+    max-height: 100px;
+    padding: 2% 9%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .navbar a {
+    color: #f4f2f2;
+    font-size: 2.5vw;
+    padding: 0 1.5vw;
+}
+
+header .icons a {
+    height: 6vw;
+    line-height: 6vw;
+    width: 6.5vw;
+    font-size: 4vw;
+    border-radius: .5rem;
+    color: #f4f2f2;
+}
+
+.login-signin {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login a,
+.signin a {
+    display: inline-block;
+    padding: 1vh 2vw;
+    background-color: #285943;
+    color: #dfffd5;
+    border-radius: 40px;
+    font-size: 2vw;
+}
+
+.login a:hover,
+.signin a:hover {
+    background-color: #8CD790;
+    color: #285943;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+
+
+
+/*body*/
+div.show-option{
+background-color: #8CD790;
+text-align: center;
+padding: 5% ;
+align-items: center;
+color: #333;
+font-size: 5rem;
+font-weight: bold;
+text-decoration: none;
+color: #285943;
+}
+
+
+div.interactive{
+    display: flex;
+    
+    
+    padding: 2rem;
+
+    font-size: 5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #285943;
+}
+
+div.interactive .posts-container{
+    flex-basis: 70%;
+    margin: auto;
+    margin-right: 20px;
+    border-color: #333;
+    background-color:  #114936;
+    display: block;
+    height: auto;
+    font-size: 58px;
+    min-height: 70vh;
+    
+}
+div.interactive .empty{
+    background-color:  black;
+}
+
+.post{
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    background-color:white;
+}
+
+.imagine{
+    border-right-style: groove;
+    display: flex;
+    justify-content: center;
+}
+
+.imagine img{
+    flex:1;
+    margin: auto;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.nume{
+    font-family: 'Arial', sans-serif;
+    margin-top: 4%;
+    margin-left: 6%;
+    font-size: 18px;
+    color: rgba(86, 95, 106, 0.684);
+}
+
+.tag{
+    font-family: 'Arial', sans-serif;
+    margin-top: 4%;
+    margin-left: 6%;
+    font-size: 18px;
+    color: rgba(86, 95, 106, 0.684);
+}
+
+.rating{
+    margin: 5%;
+    width:80%;
+    font-size: x-large;
+    text-align: center;
+    height: 4rem;
+    border-radius: 15px;
+    
+}
+
+
+div.interactive .filters{
+    
+    color: #51a78a;
+    flex: 1;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(3, 84, 37);
+    align-items: center;
+    font-size: 29px;
+    
+}
